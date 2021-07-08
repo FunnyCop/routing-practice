@@ -5,4 +5,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  text-align: center;
+}
+
+/* Router inserts a div without a class/id */
+.App div:nth-child(1) {
+  width: 100%;
 }
